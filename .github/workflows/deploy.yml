@@ -9,8 +9,8 @@ on:
     branches: [ main ]
 
 env:
-  ECR_REPOSITORY: img2repo-ref
-  EKS_CLUSTER_NAME: vanilla-cluster 
+  ECR_REPOSITORY: c2c_image2repo
+  EKS_CLUSTER_NAME: image2repo trace
   AWS_REGION: eu-west-1
   EKS_K8S_NAMESPACE: c2c-app-test
 
