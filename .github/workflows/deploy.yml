@@ -10,7 +10,7 @@ on:
 
 env:
   ECR_REPOSITORY: c2c_image2repo
-  EKS_CLUSTER_NAME: image2repo trace
+  EKS_CLUSTER_NAME: image2repo_trace
   AWS_REGION: eu-west-1
   EKS_K8S_NAMESPACE: c2c-app-test
 
